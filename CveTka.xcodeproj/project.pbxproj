@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73A91063192FD4B30092C7DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A91062192FD4B30092C7DE /* Foundation.framework */; };
+		73A91065192FD4B30092C7DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A91064192FD4B30092C7DE /* CoreGraphics.framework */; };
+		73A91067192FD4B30092C7DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A91066192FD4B30092C7DE /* UIKit.framework */; };
+		73A9106D192FD4B30092C7DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73A9106B192FD4B30092C7DE /* InfoPlist.strings */; };
+		73A9106F192FD4B30092C7DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A9106E192FD4B30092C7DE /* main.m */; };
+		73A91073192FD4B30092C7DE /* CvTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A91072192FD4B30092C7DE /* CvTAppDelegate.m */; };
+		73A91076192FD4B30092C7DE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73A91074192FD4B30092C7DE /* Main_iPhone.storyboard */; };
+		73A91079192FD4B30092C7DE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73A91077192FD4B30092C7DE /* Main_iPad.storyboard */; };
+		73A9107C192FD4B30092C7DE /* CvTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A9107B192FD4B30092C7DE /* CvTViewController.m */; };
+		73A9107E192FD4B30092C7DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73A9107D192FD4B30092C7DE /* Images.xcassets */; };
+		73A91085192FD4B30092C7DE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A91084192FD4B30092C7DE /* XCTest.framework */; };
+		73A91086192FD4B30092C7DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A91062192FD4B30092C7DE /* Foundation.framework */; };
+		73A91087192FD4B30092C7DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A91066192FD4B30092C7DE /* UIKit.framework */; };
+		73A9108F192FD4B30092C7DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73A9108D192FD4B30092C7DE /* InfoPlist.strings */; };
+		73A91091192FD4B30092C7DE /* CveTkaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A91090192FD4B30092C7DE /* CveTkaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73A91088192FD4B30092C7DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73A91057192FD4B30092C7DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73A9105E192FD4B30092C7DE;
+			remoteInfo = CveTka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		73A9105F192FD4B30092C7DE /* CveTka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CveTka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73A91062192FD4B30092C7DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		73A91064192FD4B30092C7DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		73A91066192FD4B30092C7DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		73A9106A192FD4B30092C7DE /* CveTka-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CveTka-Info.plist"; sourceTree = "<group>"; };
+		73A9106C192FD4B30092C7DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		73A9106E192FD4B30092C7DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73A91070192FD4B30092C7DE /* CveTka-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CveTka-Prefix.pch"; sourceTree = "<group>"; };
+		73A91071192FD4B30092C7DE /* CvTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CvTAppDelegate.h; sourceTree = "<group>"; };
+		73A91072192FD4B30092C7DE /* CvTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CvTAppDelegate.m; sourceTree = "<group>"; };
+		73A91075192FD4B30092C7DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		73A91078192FD4B30092C7DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		73A9107A192FD4B30092C7DE /* CvTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CvTViewController.h; sourceTree = "<group>"; };
+		73A9107B192FD4B30092C7DE /* CvTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CvTViewController.m; sourceTree = "<group>"; };
+		73A9107D192FD4B30092C7DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		73A91083192FD4B30092C7DE /* CveTkaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CveTkaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73A91084192FD4B30092C7DE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		73A9108C192FD4B30092C7DE /* CveTkaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CveTkaTests-Info.plist"; sourceTree = "<group>"; };
+		73A9108E192FD4B30092C7DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		73A91090192FD4B30092C7DE /* CveTkaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CveTkaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73A9105C192FD4B30092C7DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A91065192FD4B30092C7DE /* CoreGraphics.framework in Frameworks */,
+				73A91067192FD4B30092C7DE /* UIKit.framework in Frameworks */,
+				73A91063192FD4B30092C7DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73A91080192FD4B30092C7DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A91085192FD4B30092C7DE /* XCTest.framework in Frameworks */,
+				73A91087192FD4B30092C7DE /* UIKit.framework in Frameworks */,
+				73A91086192FD4B30092C7DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73A91056192FD4B30092C7DE = {
+			isa = PBXGroup;
+			children = (
+				73A91068192FD4B30092C7DE /* CveTka */,
+				73A9108A192FD4B30092C7DE /* CveTkaTests */,
+				73A91061192FD4B30092C7DE /* Frameworks */,
+				73A91060192FD4B30092C7DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73A91060192FD4B30092C7DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73A9105F192FD4B30092C7DE /* CveTka.app */,
+				73A91083192FD4B30092C7DE /* CveTkaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73A91061192FD4B30092C7DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73A91062192FD4B30092C7DE /* Foundation.framework */,
+				73A91064192FD4B30092C7DE /* CoreGraphics.framework */,
+				73A91066192FD4B30092C7DE /* UIKit.framework */,
+				73A91084192FD4B30092C7DE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73A91068192FD4B30092C7DE /* CveTka */ = {
+			isa = PBXGroup;
+			children = (
+				73A91071192FD4B30092C7DE /* CvTAppDelegate.h */,
+				73A91072192FD4B30092C7DE /* CvTAppDelegate.m */,
+				73A91074192FD4B30092C7DE /* Main_iPhone.storyboard */,
+				73A91077192FD4B30092C7DE /* Main_iPad.storyboard */,
+				73A9107A192FD4B30092C7DE /* CvTViewController.h */,
+				73A9107B192FD4B30092C7DE /* CvTViewController.m */,
+				73A9107D192FD4B30092C7DE /* Images.xcassets */,
+				73A91069192FD4B30092C7DE /* Supporting Files */,
+			);
+			path = CveTka;
+			sourceTree = "<group>";
+		};
+		73A91069192FD4B30092C7DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73A9106A192FD4B30092C7DE /* CveTka-Info.plist */,
+				73A9106B192FD4B30092C7DE /* InfoPlist.strings */,
+				73A9106E192FD4B30092C7DE /* main.m */,
+				73A91070192FD4B30092C7DE /* CveTka-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73A9108A192FD4B30092C7DE /* CveTkaTests */ = {
+			isa = PBXGroup;
+			children = (
+				73A91090192FD4B30092C7DE /* CveTkaTests.m */,
+				73A9108B192FD4B30092C7DE /* Supporting Files */,
+			);
+			path = CveTkaTests;
+			sourceTree = "<group>";
+		};
+		73A9108B192FD4B30092C7DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73A9108C192FD4B30092C7DE /* CveTkaTests-Info.plist */,
+				73A9108D192FD4B30092C7DE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73A9105E192FD4B30092C7DE /* CveTka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73A91094192FD4B30092C7DE /* Build configuration list for PBXNativeTarget "CveTka" */;
+			buildPhases = (
+				73A9105B192FD4B30092C7DE /* Sources */,
+				73A9105C192FD4B30092C7DE /* Frameworks */,
+				73A9105D192FD4B30092C7DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CveTka;
+			productName = CveTka;
+			productReference = 73A9105F192FD4B30092C7DE /* CveTka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73A91082192FD4B30092C7DE /* CveTkaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73A91097192FD4B30092C7DE /* Build configuration list for PBXNativeTarget "CveTkaTests" */;
+			buildPhases = (
+				73A9107F192FD4B30092C7DE /* Sources */,
+				73A91080192FD4B30092C7DE /* Frameworks */,
+				73A91081192FD4B30092C7DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73A91089192FD4B30092C7DE /* PBXTargetDependency */,
+			);
+			name = CveTkaTests;
+			productName = CveTkaTests;
+			productReference = 73A91083192FD4B30092C7DE /* CveTkaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73A91057192FD4B30092C7DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CvT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Godalkanje;
+				TargetAttributes = {
+					73A91082192FD4B30092C7DE = {
+						TestTargetID = 73A9105E192FD4B30092C7DE;
+					};
+				};
+			};
+			buildConfigurationList = 73A9105A192FD4B30092C7DE /* Build configuration list for PBXProject "CveTka" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73A91056192FD4B30092C7DE;
+			productRefGroup = 73A91060192FD4B30092C7DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73A9105E192FD4B30092C7DE /* CveTka */,
+				73A91082192FD4B30092C7DE /* CveTkaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73A9105D192FD4B30092C7DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A91079192FD4B30092C7DE /* Main_iPad.storyboard in Resources */,
+				73A9107E192FD4B30092C7DE /* Images.xcassets in Resources */,
+				73A91076192FD4B30092C7DE /* Main_iPhone.storyboard in Resources */,
+				73A9106D192FD4B30092C7DE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73A91081192FD4B30092C7DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A9108F192FD4B30092C7DE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73A9105B192FD4B30092C7DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A91073192FD4B30092C7DE /* CvTAppDelegate.m in Sources */,
+				73A9106F192FD4B30092C7DE /* main.m in Sources */,
+				73A9107C192FD4B30092C7DE /* CvTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73A9107F192FD4B30092C7DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A91091192FD4B30092C7DE /* CveTkaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73A91089192FD4B30092C7DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73A9105E192FD4B30092C7DE /* CveTka */;
+			targetProxy = 73A91088192FD4B30092C7DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		73A9106B192FD4B30092C7DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73A9106C192FD4B30092C7DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		73A91074192FD4B30092C7DE /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73A91075192FD4B30092C7DE /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		73A91077192FD4B30092C7DE /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73A91078192FD4B30092C7DE /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		73A9108D192FD4B30092C7DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73A9108E192FD4B30092C7DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73A91092192FD4B30092C7DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73A91093192FD4B30092C7DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73A91095192FD4B30092C7DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CveTka/CveTka-Prefix.pch";
+				INFOPLIST_FILE = "CveTka/CveTka-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		73A91096192FD4B30092C7DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CveTka/CveTka-Prefix.pch";
+				INFOPLIST_FILE = "CveTka/CveTka-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		73A91098192FD4B30092C7DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CveTka.app/CveTka";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CveTka/CveTka-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CveTkaTests/CveTkaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		73A91099192FD4B30092C7DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CveTka.app/CveTka";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CveTka/CveTka-Prefix.pch";
+				INFOPLIST_FILE = "CveTkaTests/CveTkaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73A9105A192FD4B30092C7DE /* Build configuration list for PBXProject "CveTka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73A91092192FD4B30092C7DE /* Debug */,
+				73A91093192FD4B30092C7DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73A91094192FD4B30092C7DE /* Build configuration list for PBXNativeTarget "CveTka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73A91095192FD4B30092C7DE /* Debug */,
+				73A91096192FD4B30092C7DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		73A91097192FD4B30092C7DE /* Build configuration list for PBXNativeTarget "CveTkaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73A91098192FD4B30092C7DE /* Debug */,
+				73A91099192FD4B30092C7DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73A91057192FD4B30092C7DE /* Project object */;
+}

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="19T-rg-XdN">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--CvT View Controller-->
+        <scene sceneID="yRF-u6-IYP">
+            <objects>
+                <viewController id="19T-rg-XdN" customClass="CvTViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="trI-Nn-Ate"/>
+                        <viewControllerLayoutGuide type="bottom" id="mwi-Ot-aPe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OhP-Hw-RwT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cxt-T9-UDd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-763" y="771"/>
+        </scene>
+        <!--CvT Demo Setup View Controller-->
+        <scene sceneID="7dr-tn-o2g">
+            <objects>
+                <viewController storyboardIdentifier="Demo" id="Rkm-vP-dBP" customClass="CvTDemoSetupViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="v3p-Ji-X0E"/>
+                        <viewControllerLayoutGuide type="bottom" id="FFN-7k-Nm8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EJ5-Xi-aZJ">
+                        <rect key="frame" x="0.0" y="0.0" width="160" height="320"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="MVQ-p5-OhG">
+                                <rect key="frame" x="0.0" y="61" width="160" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <segments>
+                                    <segment title="pluck"/>
+                                    <segment title="ping"/>
+                                    <segment title="pong"/>
+                                    <segment title="midi"/>
+                                </segments>
+                                <connections>
+                                    <action selector="VoiceChange:" destination="Rkm-vP-dBP" eventType="valueChanged" id="OMr-DA-PVm"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="vpb-Pd-GnI">
+                                <rect key="frame" x="0.0" y="6" width="160" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <segments>
+                                    <segment title="off"/>
+                                    <segment title="client"/>
+                                    <segment title="server"/>
+                                </segments>
+                                <connections>
+                                    <action selector="AirplayChange:" destination="Rkm-vP-dBP" eventType="valueChanged" id="zeA-ww-Yaf"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="LAa-sp-wjm">
+                                <rect key="frame" x="0.0" y="146" width="160" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <segments>
+                                    <segment title="root"/>
+                                    <segment title="triad"/>
+                                    <segment title="7th"/>
+                                </segments>
+                                <connections>
+                                    <action selector="ChordModeChange:" destination="Rkm-vP-dBP" eventType="valueChanged" id="pdw-5o-RMK"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Au4-gc-xKb">
+                                <rect key="frame" x="0.0" y="282" width="160" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <segments>
+                                    <segment title="snap"/>
+                                    <segment title="fast"/>
+                                    <segment title="slow"/>
+                                </segments>
+                                <connections>
+                                    <action selector="AutoTuneTimeChange:" destination="Rkm-vP-dBP" eventType="valueChanged" id="NmQ-Fw-YTE"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="U12-E6-jUo">
+                                <rect key="frame" x="0.0" y="239" width="160" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <segments>
+                                    <segment title="none"/>
+                                    <segment title="chromatic"/>
+                                    <segment title="scale"/>
+                                </segments>
+                                <connections>
+                                    <action selector="AutoTuneChange:" destination="Rkm-vP-dBP" eventType="valueChanged" id="F0T-8v-aHD"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="kOh-Kg-yQq">
+                                <rect key="frame" x="0.0" y="104" width="160" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="bass"/>
+                                    <segment title="alt"/>
+                                    <segment title="sopr"/>
+                                </segments>
+                                <connections>
+                                    <action selector="PitchChange:" destination="Rkm-vP-dBP" eventType="valueChanged" id="1AJ-cy-KwV"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="160" height="320"/>
+                    <connections>
+                        <outlet property="Airplay" destination="vpb-Pd-GnI" id="h76-nv-ORB"/>
+                        <outlet property="AutoTune" destination="U12-E6-jUo" id="1vM-5V-MaU"/>
+                        <outlet property="AutoTuneTime" destination="Au4-gc-xKb" id="6jA-IM-4oi"/>
+                        <outlet property="ChordType" destination="LAa-sp-wjm" id="VI0-NS-fGJ"/>
+                        <outlet property="Pitch" destination="kOh-Kg-yQq" id="Kot-4U-vlk"/>
+                        <outlet property="Voice" destination="MVQ-p5-OhG" id="KxZ-Ew-N46"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z2y-Yi-N37" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-199" y="895"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

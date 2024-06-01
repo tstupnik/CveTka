@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Audiobus.h"
 
-@interface CvTAppDelegate : UIResponder <UIApplicationDelegate>
+#import "Synth/CvTSynth.h"
+
+@interface CvTAppDelegate : UIResponder<UIApplicationDelegate, ABAudiobusControllerStateIODelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

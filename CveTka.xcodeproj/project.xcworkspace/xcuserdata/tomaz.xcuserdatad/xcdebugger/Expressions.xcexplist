@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[CvTScale ToggleTone:]:CvTScale.mm">
+      </ContextState>
+      <ContextState
+         contextName = "AudioCallBack:CvTSynth.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[CvTDemoSetupViewController viewDidLoad]:CvTDemoSetupViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[CvTDemoSetupViewController Setup:]:CvTDemoSetupViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[CvTSpiralView touchesBegan:withEvent:]:CvTSpiral.mm">
+      </ContextState>
+      <ContextState
+         contextName = "-[CvTSpiralView drawRect:]:CvTSpiral.mm">
+      </ContextState>
+      <ContextState
+         contextName = "-[CvTSynthFMTone init:synth:]:CvTSynth.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[CvTScale ContainsMidiTone:]:CvTScale.mm">
+      </ContextState>
+      <ContextState
+         contextName = "-[CvTSpiralView SetSetupMode:]:CvTSpiral.mm">
+      </ContextState>
+      <ContextState
+         contextName = "-[CvTSpiralView SetDroneLock:]:CvTSpiral.mm">
+      </ContextState>
+      <ContextState
+         contextName = "-[CvTSynth Play:ident:]:CvTSynth.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[CvTSpiralView touchesMoved:withEvent:]:CvTSpiral.mm">
+      </ContextState>
+      <ContextState
+         contextName = "-[CvTSpiralView drawSpiral:]:CvTSpiral.mm">
+      </ContextState>
+      <ContextState
+         contextName = "-[CvTSynth RenderSound:numFrames:]:CvTSynth.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(float [])commonEnvelope">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
